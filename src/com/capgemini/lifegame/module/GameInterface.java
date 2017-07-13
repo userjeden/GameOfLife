@@ -14,6 +14,7 @@ public interface GameInterface {
 	public BoardState initializeBoard(int initArrangSize, int[][] initArrang);
 	
 	
+	
 	/**
 	 * Creates a transition of a board (next step board) 
 	 * based on a current step board state.
@@ -22,6 +23,7 @@ public interface GameInterface {
 	 * @return                  state of the board after transition
 	 */
 	public BoardState transitionBoard(BoardState boardState);
+	
 	
 	
 	/**
